@@ -6,7 +6,6 @@ def power(x, y):
 		return power(x, y // 2) * power(x, y // 2)
 		
 	return x * power(x, y // 2) * power(x, y // 2)
-
 def order(x):
 
 	n = 0
